@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -126,4 +126,20 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+.main{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* scroll-snap-type: block mandatory; */
 }
+
+.main section{
+  border: 3px solid;
+  scroll-snap-align: center;
+  position: sticky;
+  top: 0;
+  background-color: blueviolet;
+}
+

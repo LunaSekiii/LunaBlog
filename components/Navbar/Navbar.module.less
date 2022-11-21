@@ -1,0 +1,15 @@
+.navbar{
+    z-index: 1999;
+    // outline: none;
+    // width: 100%;
+    // height: 74px;
+    transition: all 0.5s;
+    transform: translate3d(0, 0, 0);
+    &.notTop {
+        transform: translate3d(0, -114px, 0);
+    }
+    &:hover, &:focus-within{
+        opacity: 1.0;
+        background: #FFF;
+    }
+}
