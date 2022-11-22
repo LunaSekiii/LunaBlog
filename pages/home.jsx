@@ -47,7 +47,7 @@ const Home = () => {
         <section className=" z-0 hero h-screen bg-home-img text-primary">
           <div className="hero-content text-center">
             <div className="max-w-md">
-              <h1 className="h-auto text-5xl font-bold">我的新博客</h1>
+              <h1 className="h-auto text-5xl font-bold">我的新博客1</h1>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
